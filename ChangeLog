@@ -1,0 +1,69 @@
+2010-10-29  Ossama Othman  <ossama.othman@intel.com>
+
+	* configure.ac (AC_INIT):
+
+	  Bumped package version to 0.0.7.
+
+	* 32x32/apps:
+	* 48x48/apps:
+	* 64x64/apps:
+	* 96x96/apps:
+	* 128x128/apps:
+
+	  Removed fennec.png and meego-xterm.png icons.  Their
+	  corresponding apps should be using icons-Applications-browser
+	  and icons-Appplications-terminal, respectively, instead.
+
+2010-10-17  Ossama Othman  <ossama.othman@intel.com>
+
+	* configure.ac (AC_INIT):
+
+	  Bumped package version to 0.0.6.
+
+	* 32x32/apps:
+	* 48x48/apps:
+	* 64x64/apps:
+	* 96x96/apps:
+	* 128x128/apps:
+
+	  Updated all handset app icons are now consistent with the
+	  reference theme.
+
+	  Removed all unused handset app icons.  Reference theme
+	  conforming versions of those icons are currently unavailable.
+
+2010-10-05  Ossama Othman  <ossama.othman@intel.com>
+
+	* configure.ac (AC_INIT):
+
+	  Bumped package version to 0.0.5.
+
+	  Corrected package name.  Do not use tarball name in place of
+	  package name.
+
+	  (AC_CONFIG_SRCDR):
+
+	  Corrected argument.  This macro expects a unique filename.  The
+	  use of a directory as an argument is a bit misleading.
+
+	  (AM_INIT_AUTOMAKE):
+
+	  Make Bzip2 the default compression to use for dist tarballs.
+
+	  (AC_CONFIG_FILES):
+
+	  Added new 96x96 and 128x128 icon directory Makefiles.
+
+	* Makefile.am (SUBDIRS):
+
+	  Added new 96x96 and 128x128 directories to the list of
+	  subdirectories.
+
+	* 32x32:
+	* 48x48:
+	* 64x64:
+	* 96x96:
+	* 128x128:
+
+	  Integrated new handset icon set from our designer.  Notice the
+	  new 96x96 and 128x128 set of icons.
